@@ -120,5 +120,33 @@ p.numero {
 
 .tableingredient{
     width: 100%;
+}
 
+@media only screen and (max-width: 768px){
+    .colonne1{
+        width: 100%;
+    }
+    .colonne2{
+        width: 100%;
+    }
+    .conteneur{
+        margin: 0px 2px 2px 2px;
+        padding: 20px;
+    }
+    .tableau td{
+        font-size: 12px;
+    }
+    .tableau th{
+        font-size: 14px;
+    }
+    .tableau{
+        height: 50px;
+    }
+}
+@media only screen and (min-width:900px){
+    .conteneur{
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
