@@ -1,0 +1,124 @@
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    overflow: auto;
+}
+.recette p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+   padding: 10px;
+   margin-bottom: 0px;
+   font-weight: bold;
+   font-size: 18px;
+}
+.recette{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.conteneur{
+    background-color: white;
+    margin: 0px 10% 50px 10%;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.title{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.description p{
+    text-align: center;
+    max-width: 400px;
+   display: inline-block;
+   font-size: 12px;
+}
+.description{
+    text-align: center;
+}
+.separateur{
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-gateau{
+    text-align: center;
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+.conteneur-image{
+    position: relative;
+}
+.tableau{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+}
+
+.tableau td{
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+}
+.tableau th{
+    vertical-align: bottom;
+}
+.colonne{
+    width: 45%;
+    margin-top: 10px;
+    
+}
+div.colonne h2 {
+    text-align: center;
+    border-bottom: 5px solid #6C829D;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.colonne1{
+    display: inline-block;
+    
+}
+.colonne2{
+    float: right;
+    margin-left: 10%;
+}
+
+.ingredient p{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+p.numero {
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 4px;
+    
+}
+
+.tableingredient{
+    width: 100%;
+
+}
